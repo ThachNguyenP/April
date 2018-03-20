@@ -2,7 +2,7 @@
 lock "~> 3.10.0"
 
 set :application, "April"
-set :repo_url, "git@github.com:AsianTechInc/AT-Portal-BE.git"
+set :repo_url, "https://github.com/XingBairong/April.git"
 
 set :rbenv_type, :user # or :system, depends on your rbenv setup
 set :rbenv_ruby, '2.3.1'
