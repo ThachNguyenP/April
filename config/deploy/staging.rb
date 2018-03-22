@@ -8,9 +8,9 @@ server "35.185.188.216",
     # password: "please use keys"
   }
 
-  # namespace :deploy do
-  #   desc 'Restart Unicorn'
-  #   task :restart_unicorn do
-  #     invoke 'unicorn:legacy_restart'
-  #   end
-  # end
+  namespace :deploy do
+    desc 'Restart Unicorn'
+    task :restart_unicorn do
+      invoke 'unicorn:legacy_restart'
+    end
+  end
